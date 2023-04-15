@@ -1,0 +1,337 @@
+@import url(//db.onlinewebfonts.com/c/623d4dc6008d0cf75ee9c61ed16ac084?family=LatoLatin);
+
+.nav{
+    background-color: rgb(11, 33, 73);
+    color: white;
+    padding: 0.5%;
+    margin: 0%;
+    margin-top: 0;
+    font-family: 'LatoLatin';
+    border-style: solid;
+    border-width: 0.2px;
+    border-top: none;
+    padding-left: 6%;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.logo :hover{
+    fill:blue;
+}
+
+.logo{
+    padding-left: 20%;
+}
+
+.drop{
+    appearance: none;
+}
+.nav input[type = text]
+{
+    padding: 0.5%;
+    background-color:rgb(31, 51, 88) ;
+    color: white;
+    border-color: none;
+    border: none;
+}
+
+.nav input[type = text]:hover
+{
+    background-color: #f0f1f2;
+    color: blue;
+    border: none;
+}
+.nav:hover{
+    background-color: white;
+    color: blue;
+    display: block;
+    cursor: pointer;
+}
+
+
+.nav:hover > .logo{
+    fill:black;
+}
+
+.nav .a{
+    display: block;
+    padding: 1%;
+}
+
+.nav .A{
+    float:right;
+    text-align: center;
+    display: block;
+    padding: 1%;
+ 
+}
+
+.course{
+    background-color:  rgb(11, 33, 73) ;
+    color:white;
+    font-family: 'LatoLatin';
+    padding: 2%;
+    padding-left: 6%;
+    margin: 0%;
+}
+
+.course a{
+    font-weight: 100;
+    font-size: 16px;
+    color: lightgrey;
+    padding-bottom: 0%;
+}
+.course h1{
+    font-weight:900;
+    font-size: 28px;
+}
+.info{
+    position: relative;
+    background-color: rgb(243,251,251);
+    margin-top: 0%;
+}
+.summary label{
+    margin-left: 13%;
+}
+
+.summary hr{
+    margin-left: 13%;
+}
+.summary{
+   
+    overflow: auto;
+    width:300px;
+    height: 400px;
+    padding-top: 1%;
+    margin-left:1%;
+    padding-right: 2%;
+    margin-right: 1%;
+    padding-left: 2%;
+    font-family: 'LatoLatin';
+    position: absolute;
+    background-color: rgb(243,251,251);
+}
+
+#sideList{
+     overflow: auto;
+}
+
+#sideList > li{
+    list-style: none;
+    margin-top: 8%;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.detail{
+    padding-left: 25%;
+    font-family: 'LatoLatin';
+    width:70%;
+}
+
+.course1head{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.course1head img{
+    margin-top: 1%;
+    order:1;
+}
+.course1head h3{
+    order:2;
+}
+
+.course1, .course2, .course3, .course4{
+    margin-top: 1%;
+    background-color: white;
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 0.1px;
+    padding: 1%;
+    padding-right: 5%;
+    margin-left: 5%;
+}
+
+
+.content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1%;
+    font-size: 15px;
+    align-items: center;
+}
+
+.col1{
+    flex:50%;
+}
+
+.col2{
+    flex:50%;
+}
+
+ul{
+    list-style: none;
+    display: block;
+}
+
+.detail img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.footer{
+    background-color:rgb(11, 33, 73);
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color:#f0f1f2;
+    margin-top: 2%;
+    font-family: 'LatoLatin';
+    padding-top: 3%;
+    padding-right: 20%;
+    padding-left: 20%;
+    align-items: flex-start;
+}
+
+
+.footer h3{
+    color: #8295BA;
+    font-family: 'LatoLatin';
+    font-weight: lighter;
+}
+
+.footer > ul{
+    list-style: none;
+    font-size: 12px;
+}
+
+.footer > ul > li{
+    display: block;
+    margin: 10px;
+}
+
+.DonateMsg{
+    flex: 20%;
+    font-size: 20px;
+    color:#8295BA;
+}
+
+.footerCol{
+    flex: 10%;
+    font-size: 12px;
+}
+
+.footerCol3{
+    flex: 10%;
+    font-size: 12px;
+}
+
+.footerCol2{
+    flex:10%;
+    font-size: 12px;
+}
+
+.footerCol > ul > li{
+    margin-bottom: 12px;
+}
+
+.footerCol2 > ul > li{
+    margin-bottom: 12px;
+}
+
+.footerCol3 > ul > li{
+    margin-bottom: 12px;
+}
+
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.lang{
+    flex:50%;
+    font-size: 12px;
+    padding-top: 4%;
+}
+
+.footer label{
+    color: #8295BA;
+    font-size: 12px;
+}
+
+.langbtn{
+    background-color: rgb(11, 33, 73);
+    color: white;
+    border: none;
+    font-size: 12px;
+    position: relative;
+}
+.langbtn :hover{
+    text-decoration: underline;
+}
+
+.langbtn > svg{
+    position: absolute;
+    padding: 0.5%;
+}
+
+.country{
+    flex: 100%;
+    padding-top: 2px;
+}
+
+.country a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.flag{
+    height: 12px;
+    width: 12px;
+}
+
+.end{
+    flex:100%;
+    width: 1px;
+    color:#f0f1f2;
+    background-color: white;
+}
+.ending{
+    font-size: 12px;
+    flex:100%;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+}
+
+.social{
+    flex:30%;
+    padding-left: 49%;
+}
+
+.k-info{
+    flex:70%;
+    flex-shrink: 0;
+}
+
+.ending a{
+    color:white;
+    text-decoration: none;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+#cc{
+    color:#8295BA;
+}
